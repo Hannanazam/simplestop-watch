@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h3>Stop watch</h3>
+    </div>
+    <div class="setui">
+    <div class="headings">
+        <h2>(Minutes)</h2>
+        <h2>(Seconds)</h2>
+        <h2>(Miliseconds)</h2>
+    </div>
+    <div class="heading1">
+        <h1 id="min">0</h1>
+        <h1 id="sec">0</h1>
+        <h1 id="msec">0</h1>
+    </div>
+    <div>
+        <button id="disable" onclick="start()">Start</button>
+        <button id="enable" onclick="stop()">Pause</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+</div>
+    
+</body>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+}
+h1{
+    color: black;
+    display: inline-block;
+    width: 100px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid coral;
+}
+
+.setui{
+    background-color: peachpuff;
+    width: 40%;
+    padding: 20px;
+    margin: 0px auto;
+    margin-top: 250px;
+    border-radius: 10px;
+    border: 3px solid coral;
+}
+h3{
+    position: relative;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -10%;
+    background-color: peachpuff;
+    padding: 10px;
+    border: 2px solid coral;
+}
+h2{
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 20px;
+    margin-bottom: -10%;
+}
+button{
+    width: 80px;
+    padding: 10px;
+    background: none;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: rgb(248, 80, 80);
+    border: 2px solid coral;
+}
+button:active{
+    cursor: pointer;
+    font-size: 14px;
+  
+}
+button:focus{
+    outline: 0;
+}
+@media (max-width:786px){
+.setui{
+    width: 85%;
+    margin-top: 150px;
+}
+h1{
+    color: black;
+    display: inline-block;
+    width: 90px;
+    background-color: white;
+}
+button{
+    width: 80px;
+    padding: 10px;
+    background: none;
+    background-color: rgb(248, 80, 80);
+}
+h2{
+    margin: 5px;
+    margin-left: 10px;
+}
+}
